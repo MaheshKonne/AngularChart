@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+		<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+		<script type="text/javascript" src="chartController.js"></script>
+	</head>
+	<body ng-app="angularChart" ng-controller="chartController">
+
+		<input type="file" id="fileInput" accept=".csv" />
+		<button ng-click="rendreChart()">Render Chart</button>
+		<div id="chartContainer"></div>
+
+	</body>
+</html>
